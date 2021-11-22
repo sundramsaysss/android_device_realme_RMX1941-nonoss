@@ -16,6 +16,9 @@
 
 DEVICE_PATH := device/realme/RMX1941
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := RMX1941,RMX1945,RMX1943
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
