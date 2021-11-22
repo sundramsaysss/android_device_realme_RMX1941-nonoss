@@ -16,6 +16,10 @@
 
 DEVICE_PATH := device/realme/RMX1941
 
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_PATH)/overlay 
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default 
