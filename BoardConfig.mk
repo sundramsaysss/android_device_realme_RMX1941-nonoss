@@ -86,3 +86,8 @@ TARGET_COPY_OUT_SYSTEM_EXT := system/system_ext
 TARGET_COPY_OUT_PRODUCT := system/product
 BUILD_WITHOUT_VENDOR := true
 TARGET_COPY_OUT_VENDOR := vendor
+
+# Recovery
+BOARD_USES_RECOVERY_AS_BOOT := false
+TARGET_NO_RECOVERY := false
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6765
