@@ -69,6 +69,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
 
+# WiFi
+PRODUCT_PACKAGES += \
+    WifiOverlay
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.RMX1941
