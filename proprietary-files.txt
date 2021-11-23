@@ -3,3 +3,15 @@ bin/kpoc_charger
 etc/init/kpoc_charger.rc
 lib/libshowlogo.so
 lib/libsysenv_system.so
+
+# Permissions
+configs/permissions/com.mediatek.op.ims.common.xml
+configs/permissions/privapp-permissions-mediatek.xml
+configs/permissions/privapp-permissions-oppo.xml
+configs/permissions/privapp-permissions-platform.xml
+configs/permissions/platform.xml
+configs/permissions/privapp-permissions-whitelist-product.xml
+configs/permissions/privapp-permissions-whitelist-system.xml
+configs/permissions/privapp-permissions-whitelist-system_ext.xml 
+configs/permissions/privapp-permissions-com.android.launcher3.xml
+configs/permissions/privapp-permissions-com.mediatek.ims.xml
