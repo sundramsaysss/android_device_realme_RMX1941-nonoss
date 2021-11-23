@@ -38,6 +38,11 @@ TARGET_USES_64_BIT_BINDER := true
 ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
+# Display
+TARGET_SCREEN_DENSITY := 320
+TARGET_SCREEN_HEIGHT := 1560
+TARGET_SCREEN_WIDTH := 720
+
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
