@@ -74,6 +74,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_showlogo
 
+# Dependencies of kpoc_charger
+PRODUCT_PACKAGES += \
+    libsuspend \
+    android.hardware.health@2.0
+
 # Screen density
 PRODUCT_AAPT_CONFIG := xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
