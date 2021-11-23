@@ -73,3 +73,8 @@ PRODUCT_PACKAGES += \
 # Symbols
 PRODUCT_PACKAGES += \
     libshim_showlogo
+
+# Screen density
+PRODUCT_AAPT_CONFIG := xxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_AAPT_PREBUILT_DPI := xhdpi xxhdpi
