@@ -32,7 +32,11 @@ PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay 
+    $(DEVICE_PATH)/overlay
+
+# Overlays -- replace official
+PRODUCT_PACKAGES += \
+    FrameworkResOverlay 
 
 # Audio
 PRODUCT_PACKAGES += \
