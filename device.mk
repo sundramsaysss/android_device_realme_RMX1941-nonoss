@@ -56,6 +56,11 @@ PRODUCT_PACKAGES += \
     init.safailnet.rc \
     fstab.mt6765
 
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0_system \
+    android.hidl.manager@1.0_system 
+
 # Symbols
 PRODUCT_PACKAGES += \
     libshim_showlogo
