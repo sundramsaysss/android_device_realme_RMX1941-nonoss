@@ -55,6 +55,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES := \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.ims.xml 
 
+# RcsService
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager \
+    PresencePolling \
+    RcsService
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.RMX1941
