@@ -25,6 +25,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # IMS
 $(call inherit-product, vendor/mediatek-ims/ims-vendor.mk)
 
+# Parts
+$(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
+
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
 PRODUCT_EXTRA_VNDK_VERSIONS := 29
@@ -88,7 +91,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.target.rc \
     init.safailnet.rc \
-    fstab.mt6765
+    fstab.mt6765 \
+    perf_profile.sh 
 
 # HIDL
 PRODUCT_PACKAGES += \
