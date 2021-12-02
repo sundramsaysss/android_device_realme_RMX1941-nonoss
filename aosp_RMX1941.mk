@@ -41,6 +41,8 @@ PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme C2
 PRODUCT_MANUFACTURER := realme
 
+TARGET_BOOT_ANIMATION_RES := 720
+
 # Build FP
 BUILD_FINGERPRINT := "google/coral/coral:12/SP1A.210812.016.A1/7796139:user/release-keys"
 
