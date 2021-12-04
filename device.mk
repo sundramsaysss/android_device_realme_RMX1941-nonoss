@@ -83,3 +83,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_AAPT_PREBUILT_DPI := xhdpi xxhdpi
+
+# Inherit Device Vendor
+$(call inherit-product, vendor/realme/RMX1941/RMX1941-vendor.mk)
