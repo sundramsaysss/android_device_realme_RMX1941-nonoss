@@ -46,3 +46,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.safailnet.rc \
     fstab.mt6765
+
+# Symbols
+PRODUCT_PACKAGES += \
+    libshim_showlogo
