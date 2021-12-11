@@ -146,3 +146,6 @@ on property:sys.boot_completed=1
     chmod 440 /proc/net/unix
     chmod +x /system/etc/swap_enable.sh
     start swap_enable
+
+on property:persist.vendor.radio.port_index=""
+    setprop sys.usb.config adb
