@@ -71,6 +71,10 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# CameraGo
+PRODUCT_PACKAGES += \
+    CameraGo
+
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
