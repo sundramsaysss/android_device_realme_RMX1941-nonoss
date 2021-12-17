@@ -61,6 +61,10 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# Tethering
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.RMX1941
